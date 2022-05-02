@@ -8,7 +8,7 @@ Access the layout
 
 Access the site
 
-[> Open site](bloco-cursos.surge.sh)
+[> Open site](http://bloco-cursos.surge.sh/)
 
 ## Building
 
