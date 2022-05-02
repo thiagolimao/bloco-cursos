@@ -1,0 +1,82 @@
+{% extends "template.html" %}
+
+{% set page ='home' %}
+
+{% block meta %}
+<title>lorem_title</title>
+{% endblock %}
+
+{% block content %}
+
+
+<main id="main">
+
+    <!-- ======= Uma linha ======= -->
+    <section id="" class="sec-prod-infinity">
+        <div class="container">
+
+            <header class="section-title">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <figure class="figure figure-title">
+                            <img src="https://via.placeholder.com/545x154/F0F0F0/A9A9A9" class="figure-img img-fluid"
+                                alt="">
+                        </figure>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h2 class="title-icon">
+                            <img src="https://portal.anhembi.br/wp-content/uploads/2022/03/inscrever-1.svg" alt="">
+                            <span>Curso com uma linha</span>
+                        </h2>
+                        <p class="text-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae consectetur ab numquam
+                            itaque? Delectus dolorem quos magni autem eos, ipsum iste aliquid quaerat natus aut
+                            inventore, cum porro, ipsam error.
+                        </p>
+                        <!-- Ciências Agrárias & Meio Ambiente -->
+                    </div>
+                </div>
+            </header>
+
+            {% include "parts/components/infinity-prod.html" %}
+
+        </div><!-- /container -->
+    </section><!-- End  Section -->
+
+    <!-- ======= Duas linha ======= -->
+    <section id="" class="sec-prod-infinity">
+        <div class="container">
+
+            <header class="section-title">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <figure class="figure figure-title">
+                            <img src="https://via.placeholder.com/545x154/F0F0F0/A9A9A9" class="figure-img img-fluid"
+                                alt="">
+                        </figure>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h2 class="title-icon">
+                            <img src="https://portal.anhembi.br/wp-content/uploads/2022/03/inscrever-1.svg" alt="">
+                            <span>Curso com mais de uma linha exemplo</span>
+                        </h2>
+                        <p class="text-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae consectetur ab numquam
+                            itaque? Delectus dolorem quos magni autem eos, ipsum iste aliquid quaerat natus aut
+                            inventore, cum porro, ipsam error.
+                        </p>
+                        <!-- Ciências Agrárias & Meio Ambiente -->
+                    </div>
+                </div>
+            </header>
+
+            {% include "parts/components/infinity-prod.html" %}
+
+        </div><!-- /container -->
+    </section><!-- End  Section -->
+
+
+</main><!-- End #main -->
+
+
+{% endblock %}
